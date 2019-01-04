@@ -12,22 +12,6 @@
 - virtualenv
 - Django 2.1.1
 
-#### <ins>pip install</ins>
-```
-celery==4.2.1
-Django==2.1.1
-django-ipware==2.1.0
-flower==0.9.2 (optional)
-MySQL-python==1.2.5
-passlib==1.7.1
-PyJWT==1.6.4
-requests==2.19.1
-supervisor==3.3.1
-urllib3==1.23
-```
-
-
-
 ---
 ### <ins>Useful Links</ins>
 - [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/)
