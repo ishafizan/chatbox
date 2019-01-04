@@ -1,4 +1,4 @@
-# ooli development server setup
+# development setup
 
 ### Setup
 ---
