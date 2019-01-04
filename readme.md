@@ -6,14 +6,11 @@
 - java 8
 - python 3.6+
 - supervisord
-- Orientdb v.3.0.7
-- MySql  Ver 14.14 Distrib 5.7.23
 - Elasticsearch 6.4.1 (optional)
 - RabbitMQ 3.6.10
 - Celery 4.2.1
 - virtualenv
 - Django 2.1.1
-- uWSGI 2.0.17.1
 
 #### <ins>pip install</ins>
 ```
@@ -51,21 +48,6 @@ sudo apt-get update
 sudo apt-get -y install oracle-java8-installer
 ```
 
-- [Orientdb](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-orientdb-on-ubuntu-16-04)
-    - https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-orientdb-on-ubuntu-16-04
-    - https://orientdb.com/nosql/pattern-matching-with-orientdb/
-    - https://www.udemy.com/orientdb-getting-started/
-    
-    ```
-    sudo bin/server.sh
-    sudo systemctl start orientdb
-    sudo systemctl enable orientdb
-
-    ```
-
-- MySql
-    - https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
-    - https://www.digitalocean.com/community/tutorials/how-to-set-up-a-remote-database-to-optimize-site-performance-with-mysql-on-ubuntu-16-04
 - Elasticsearch
     - https://www.howtoforge.com/tutorial/ubuntu-elastic-stack/
     - https://jee-appy.blogspot.com/2018/02/setup-kibana-elastisearch.html
