@@ -1,5 +1,5 @@
 # use your own settings
-# python manage.py runserver
+# add the following if doesnt exist in file
 
 # additionals
 import os
