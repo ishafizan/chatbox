@@ -3,10 +3,13 @@
 ---
 #### <ins>Django</ins>
 - create project api
-- create folders, add additional files
+```
+django-admin startproject api
+```
 - edit settings.py
 - edit urls/py
 - edit chat/urls.py
+- create additional folders, add additional files
 
 - python manage.py runserver
 - http://localhost:8000/api/0.2/chat/create/
