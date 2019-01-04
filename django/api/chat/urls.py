@@ -1,9 +1,14 @@
-from django.urls import path, include
-from django.conf import settings
-from django.views.generic.base import TemplateView
+# -*- coding: utf-8 -*-
+from django.urls import path
+from . import api
 
 urlpatterns = [
     # ----------------------------------------
     # chat
     # ----------------------------------------
-    path('chat/create', api.create_chat, name='create_chat'),
+    path('create/', api.create_chat, name='create_chat'),
+    # path('chat/view/', api.list_chat, name='list_chat'),
+    # path('chat/edit/', api.edit_chat, name='edit_chat'),
+    # path('chat/delete/', api.delete_chat, name='delete_chat'),
+
+]
