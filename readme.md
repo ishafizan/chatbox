@@ -2,13 +2,6 @@
 
 ### Setup
 ---
-#### <ins>Gitlab Administration</ins>
-https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-gitlab-on-ubuntu-16-04
-
-#### <ins>GitLab and SSH keys</ins>
-To manage your GitLab projects and repositories from your local machine
-https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html
-
 #### <ins>software</ins>
 - java 8
 - python 3.6+
