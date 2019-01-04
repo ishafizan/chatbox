@@ -6,5 +6,4 @@ urlpatterns = [
     # ----------------------------------------
     # chat
     # ----------------------------------------
-    path('api/chat/', include('chat.urls'), name="chat"),
-
+    path('chat/create', api.create_chat, name='create_chat'),
