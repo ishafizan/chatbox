@@ -12,9 +12,9 @@ django-admin startproject api
 - create additional folders, add additional files
 
 - python manage.py runserver
-- http://localhost:8000/api/0.2/chat/create/
 - payload example (from RN)
 ```
+- http://localhost:8000/api/0.2/chat/create/
 {"mymessage": "text in chat", "userid": 1234}
 ```
 
