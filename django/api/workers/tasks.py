@@ -27,11 +27,11 @@ def es_insert_generic(data_out, es_target):
     try:
         # initialise elasticsearch client
         es_client = util_es.init_es(logger, es_target["es_target"], es_target["es_target"],
-                                    es_target["es_target_index_audit"],
-                                    es_target["es_target_index_audit"])
+                                    es_target["my_index"],
+                                    es_target["my_index"])
 
         util_es.insert_es_generic(logger, data_out, es_client["es_target_client"],
-                                  es_target["es_target_index_audit"])
+                                  es_target["my_index"])
 
     except Exception as error:
         logger.error(error)
