@@ -5,5 +5,6 @@
 ### note: each Q can have their own workers
 
 ```
+# from command/console line within folder
 celery -A settings worker --loglevel=info -Q test,celery,chat
 ```
